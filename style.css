@@ -34,3 +34,26 @@ body {
     padding: 50px;
     text-align: center;
     font-size: 23px;
+}
+.menu{
+    list-style: none;
+    z-index: 0 ;
+    font-family: sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    color: darkcyan;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.link:hover {
+    background-color:dodgerblue;
+}
